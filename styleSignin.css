@@ -1,0 +1,37 @@
+body {
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/img/burger1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #0ab1a6;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #0ab1a6;
+    border: none;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+
+.btn-primary:hover {
+    background-color: #079f92;
+}

@@ -1,9 +1,9 @@
-localStorage.removeItem("Burger");
-localStorage.removeItem("Submarine");
-localStorage.removeItem("Fries");
-localStorage.removeItem("Pasta");
-localStorage.removeItem("Chicken");
-localStorage.removeItem("Beverage");
+// localStorage.removeItem("Burger");
+// localStorage.removeItem("Submarine");
+// localStorage.removeItem("Fries");
+// localStorage.removeItem("Pasta");
+// localStorage.removeItem("Chicken");
+// localStorage.removeItem("Beverage");
 if (JSON.parse(localStorage.getItem("Burger")) == null) {
     let burgerArray = [
         { index: 1, itemID: "B1001", itemName: "Classic Burger (Large)", itemCategory: "burgers", itemPrice: 1500, itemDiscount: 0, itemQTY: 15, itemExDate: "2024-12-04", URL: "img/burger2.jpg" },
@@ -79,13 +79,4 @@ if (JSON.parse(localStorage.getItem("Beverage")) == null) {
         { index: 4, itemID: "D1004", itemName: "Mirinda(330ml)", itemCategory: "beverage", itemPrice: 850, itemDiscount: 7, itemQTY: 20, itemExDate: "2026-07-25", URL: "img/drink.png" }
     ]
     localStorage.setItem("Beverage", JSON.stringify(beverageArray));
-}
-
-// const customer = [];
-function Login() {
-    // let username = document.getElementById("floatingInput").value;
-    // let password = document.getElementById("floatingPassword").value;
-    window.location.href = "viewItem.html"
-    // console.log(username);
-
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Space+Grotesk:wght@300..700&display=swap');
+
 html {
     height: 100%;
 }
@@ -39,7 +41,8 @@ main {
     opacity: 0.5;
 
 }
-.peragraph{
+
+.peragraph {
     size: 50px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,13 +50,33 @@ main {
     padding-left: 200px;
     padding-right: 20px;
 }
-.h1{
-    font-size:50px;
-   
+
+.h1 {
+    font-size: 50px;
+
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-top: 20px;
 }
-.subHeader{
-    background-color:ivory
+
+.footer-site-name {
+    background: linear-gradient(45deg, #0ab1a6, #343a40);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.footer-site-name h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Matemasie", sans-serif;
 }
